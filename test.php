@@ -65,32 +65,3 @@
 
 ?>
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Openload Api</title>
-  <link href="treeplugin/jsonFrill.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>     
-  <script src="treeplugin/jsonFrill.js"></script>
-</head>
-<body>
-
-	<div class="container" style="font-size:15px;"><br><br><br>
-
-		<div id="jsontree">
-	      <?= $result ?>
-	    </div>
-
-	</div>
-	    
-</body>
-</html>
-
-<script>
-  
-  $('#jsontree').jsonFrill();
-
-</script>
